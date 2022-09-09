@@ -20,8 +20,8 @@ while True :
         mylist[2] = 0
         mylist[1] = mylist[1] + 1
         print(mylist)
-        
-    if mylist[1] == 9 and mylist[2] == 9 :
+    if mylist[1] == 9 :
+        mylist[1] = 0
         mylist[0] = mylist[0] + 1
         print(mylist)
         break
