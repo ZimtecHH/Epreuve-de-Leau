@@ -15,12 +15,12 @@ while True :
     if mylist[2] <= 9 :
         mylist[2] = mylist[2]+1
         print(mylist)
-        break
+
     if mylist[2] == 9 :
         mylist[2] = 0
         mylist[1] = mylist[1] + 1
         print(mylist)
-        break
+        
     if mylist[1] == 9 and mylist[2] == 9 :
         mylist[0] = mylist[0] + 1
         print(mylist)
