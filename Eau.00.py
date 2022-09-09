@@ -4,106 +4,27 @@
 # dans l’ordre croissant. La répétition est volontaire.
 
 mylist = [0,0,0]
-premier = mylist[0]
-deuxième = mylist[1]
-troisième = mylist[2]
-print(mylist)
+#premier = mylist[0]
+#deuxième = mylist[1]
+#troisième = mylist[2]
+k = mylist[2]
+j = mylist[1]
+i = mylist[0]
 
-while mylist[2] < 10 :
-    print(str(mylist))
-    mylist[2] = mylist[2] + 1
-else:
-    mylist[2] = 0
-    print(mylist)
-while mylist[2] < 10 :
-    print(str(mylist))
-    mylist[1] = 1
-    mylist[2] = mylist[2] + 1
-else:
-    mylist[1] = mylist[1] + 1
-    mylist[2] = 0
-    print(mylist)
-while mylist[2] < 10 :
-    print(str(mylist))
-    mylist[1] = 2
-    mylist[2] = mylist[2] + 1
-else:
-    mylist[1] = mylist[1] + 1
-    mylist[2] = 0
-    print(mylist)
-while mylist[2] < 10 :
-    print(str(mylist))
-    mylist[1]
-    mylist[2] = mylist[2] + 1
-else:
-    mylist[1] = mylist[1] + 1
-    mylist[2] = 0
-    print(mylist)
-while mylist[2] < 10 :
-    print(str(mylist))
-    mylist[1]
-    mylist[2] = mylist[2] + 1
-else:
-    mylist[1] = mylist[1] + 1
-    mylist[2] = 0
-    print(mylist)
-while mylist[2] < 10 :
-    print(str(mylist))
-    mylist[1]
-    mylist[2] = mylist[2] + 1
-else:
-    mylist[1] = mylist[1] + 1
-    mylist[2] = 0
-    print(mylist)
-while mylist[2] < 10 :
-    print(str(mylist))
-    mylist[1]
-    mylist[2] = mylist[2] + 1
-else:
-    mylist[1] = mylist[1] + 1
-    mylist[2] = 0
-    print(mylist)
-while mylist[2] < 10 :
-    print(str(mylist))
-    mylist[1]
-    mylist[2] = mylist[2] + 1
-else:
-    mylist[1] = mylist[1] + 1
-    mylist[2] = 0
-    print(mylist)
-while mylist[2] < 10 :
-    print(str(mylist))
-    mylist[1]
-    mylist[2] = mylist[2] + 1
-else:
-    mylist[1] = mylist[1] + 1
-    mylist[2] = 0
-    print(mylist)
-while mylist[2] < 10 :
-    print(str(mylist))
-    mylist[1]
-    mylist[2] = mylist[2] + 1
-else:
-    mylist[1] = 0
-    mylist[2] = 0
-    mylist[0] = 1
-    print(mylist)
-while mylist[2] < 10 :
-    print(str(mylist))
-    mylist[2] = mylist[2] + 1
-else:
-    mylist[1] = 1
-    mylist[2] = 0
-    mylist[0] = 1
-    print(mylist)
-while mylist[2] < 10 :
-    print(str(mylist))
-    mylist[2] = mylist[2] + 1
-else:
-    mylist[1] = 2
-    mylist[2] = 0
-    mylist[0] = 1
-    print(mylist)
-while mylist[2] < 10 :
-    print(str(mylist))
-    mylist[2] = mylist[2] + 1
+while True :
+    if mylist[2] <= 9 :
+        mylist[2] = mylist[2]+1
+        print(mylist)
+        break
+    if mylist[2] == 9 :
+        mylist[2] = 0
+        mylist[1] = mylist[1] + 1
+        print(mylist)
+        break
+    if mylist[1] == 9 and mylist[2] == 9 :
+        mylist[0] = mylist[0] + 1
+        print(mylist)
+        break
+    if mylist[0] == 9 and mylist[1] == 9 and mylist[2] == 9 :
+        print(mylist)
+        break
