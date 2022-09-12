@@ -18,3 +18,14 @@ while True :
         list1[1] = 0
         list1[0] = list1[0] + 1
 
+    if list1[0] == 9 and list1[1] == 9 :
+        list1[1] = 0
+        list1[0] = 0
+        list2[1] = list2[1] + 1
+
+    if list2[1] == 9 :
+        list2[1] = 0
+        list2[0] = list2[0] + 1
+
+    if list2[0] == 9 :
+        break
