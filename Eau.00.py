@@ -26,7 +26,5 @@ while True :
     if mylist[0] == 9 and mylist[1] == 9 and mylist[0] == 9:
         break
 
-    if mylist[0] == mylist[1] - 1 :
-        mylist[2] == mylist[1] + 1
-
+    if mylist[0] == mylist[1] - 1 and mylist[2] == mylist[1] + 1 :
         print(mylist)
