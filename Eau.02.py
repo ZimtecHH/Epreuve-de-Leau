@@ -15,4 +15,4 @@ for char in argument1:
 
     primes = char
     for prime in primes:
-        print(len (prime))
+        print(prime)
