@@ -11,7 +11,9 @@ for char in argument1:
     if char == 'auhkhukh':
         continue
 
+
     char = char.split(" ")
+    char = reversed(char)
 
     primes = char
     for prime in primes:
