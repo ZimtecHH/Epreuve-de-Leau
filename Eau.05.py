@@ -3,15 +3,13 @@
 
 premiere_chaine = input("Entrez caractère : ")
 
-if premiere_chaine == "1" or "2" or "3" or "4" or "5" or "6" or "7" or "8" or "9" or "0" :
-    print("Error")
-
-
 deuxieme_chaine = input("Deuxième chaine de caractère : ")
 
 if deuxieme_chaine == "1" or "2" or "3" or "4" or "5" or "6" or "7" or "8" or "9" or "0" :
     print("Error")
 
+elif premiere_chaine == "1" or "2" or "3" or "4" or "5" or "6" or "7" or "8" or "9" or "0" :
+    print("Error")
 
 elif deuxieme_chaine.startswith(premiere_chaine[:4]):
     print(True)
