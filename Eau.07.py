@@ -3,11 +3,14 @@
 # Les autres lettres devront être en minuscules.
 # Les mots ne sont délimités que par un espace, une tabulation ou un retour à la ligne.
 
-chaine_de_caractre = input("Entrez une chaîne de caratère : ")
+Argument = input("Rentrez autant d'argument que vous voulez sans chiffre : ")
 
-Majuscule = chaine_de_caractre[0:1].upper()
+Division = Argument.split()
 
-Minuscule = chaine_de_caractre[1:len(chaine_de_caractre)].lower()
+Majuscule = Argument[0:1].upper()  # première lettre majuscule
 
-print(Majuscule+Minuscule)
+Minuscule = Argument[1:len(Argument)].lower() # le reste en minuscule
 
+Argument = Argument[0:1].upper() + Argument[1:len(Argument)].lower()
+
+print(Argument)
