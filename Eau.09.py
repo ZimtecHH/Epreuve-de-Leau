@@ -2,11 +2,10 @@
 # entre deux nombres dans l’ordre croissant. Min inclus, max exclus.
 
 Entier = input("Entrez les deux valeurs séparé par un espace : ")
-Entier = Entier.split(" ")
 
+Entier = Entier.split(" ")
 # Conversion premier chiffre
 Entier[0] = int(Entier[0])
-
 # Conversion deuxième chiffre
 Entier[1] = int(Entier[1])
 
